@@ -1,0 +1,3 @@
+<svg width="360" height="80" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#44FFA1"/><stop offset="100%" stop-color="#39B9FF"/></linearGradient></defs>
+<text x="24" y="52" font-size="36" font-family="Inter, sans-serif" fill="url(#g)">PhishTrainer</text></svg>
