@@ -1,10 +1,16 @@
 [
-  {
-    "id": 1,
-    "sender": "soporte@bancoweb-secure.com",
-    "subject": "Urgente: Actualice su cuenta hoy o será bloqueada",
-    "body": "Hemos detectado actividad inusual. Haga clic aquí para verificar su cuenta: http://bancoweb-secura.example.com",
-    "label": "phishing",
-    "explanation": "Dominio falso (no es el dominio oficial), lenguaje de urgencia y enlace con subdominio sospechoso."
-  }
+  { "id": 101, "level": "basic", "sender": "soporte@bancoweb-secure.com", "subject": "Urgente: actualice su cuenta hoy", "body": "Detectamos actividad inusual. Verifique su cuenta aquí: http://bancoweb-secura.example.com", "label": "phishing", "explanation": "Dominio falso, tono de urgencia y enlace no oficial." },
+  { "id": 102, "level": "basic", "sender": "boletines@tiendaoficial.com", "subject": "20% de descuento exclusivo", "body": "Hola, aprovechá 20% off hasta el domingo. Código: OF20", "label": "legitimo", "explanation": "Remitente coincide, no pide credenciales ni datos sensibles." },
+  { "id": 103, "level": "basic", "sender": "no-reply@linkedin.com", "subject": "Alguien vio tu perfil", "body": "Te compartimos ideas para optimizar tu perfil.", "label": "legitimo", "explanation": "Dominio oficial y contenido esperado." },
+  { "id": 104, "level": "basic", "sender": "soporte@gmail.com", "subject": "Recuperá tu contraseña ahora", "body": "Ingresá usuario y clave aquí: http://secure-gmail.example.com", "label": "phishing", "explanation": "Remitente y dominio no oficiales; formulario sospechoso." },
+
+  { "id": 201, "level": "mid", "sender": "pagos@servicioexpress.com", "subject": "Pago fallido — actualizá tarjeta", "body": "Tu pago no se procesó. Actualizá los datos aquí: http://servicio-actualizar.example", "label": "phishing", "explanation": "Pide datos financieros por enlace no oficial." },
+  { "id": 202, "level": "mid", "sender": "alertas@apple.com", "subject": "Inicio de sesión desde un nuevo dispositivo", "body": "Si no fuiste vos, accedé desde tu cuenta para revisar. https://apple.com", "label": "legitimo", "explanation": "Dominio correcto; práctica común de seguridad." },
+  { "id": 203, "level": "mid", "sender": "maria.torres@proveedorx.com", "subject": "Re: Factura pendiente – confirmá por favor", "body": "Revisá la factura: http://tinyurl.com/xxx", "label": "phishing", "explanation": "Link acortado y solicitud inusual; spear-phishing." },
+  { "id": 204, "level": "mid", "sender": "cursos@miuniversidad.edu.ar", "subject": "Actualización de cronograma", "body": "Adjunto PDF con el cronograma actualizado.", "label": "legitimo", "explanation": "Remitente institucional; adjunto esperado." },
+
+  { "id": 301, "level": "advanced", "sender": "it@empresa-sec.com", "subject": "[Acción requerida] Configurá MFA hoy", "body": "Para mantener el acceso, complete el registro MFA aquí: https://empresa-sec.com.sso-login.co/mfa", "label": "phishing", "explanation": "Dominio lookalike con subdominio engañoso." },
+  { "id": 302, "level": "advanced", "sender": "ceo@empresa.com", "subject": "Necesito que gestiones un pago ahora", "body": "¿Podés comprar 10 gift cards y enviarme los códigos? Es urgente.", "label": "phishing", "explanation": "Fraude del CEO; solicitud atípica y urgente." },
+  { "id": 303, "level": "advanced", "sender": "security@cloudservice.com", "subject": "Nueva política de seguridad", "body": "Revisá los cambios en el portal oficial: https://cloudservice.com/support/security", "label": "legitimo", "explanation": "Dominio legítimo y contenido informativo." },
+  { "id": 304, "level": "advanced", "sender": "soporte@empresa.com", "subject": "Actualización de VPN (nuevo cliente)", "body": "Descargá el instalador adjunto: cliente_vpn_update.zip", "label": "phishing", "explanation": "Adjunto .zip inesperado que solicita instalación." }
 ]
