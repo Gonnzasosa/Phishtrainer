@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "sender": "soporte@bancoweb-secure.com",
+    "subject": "Urgente: Actualice su cuenta hoy o será bloqueada",
+    "body": "Hemos detectado actividad inusual. Haga clic aquí para verificar su cuenta: http://bancoweb-secura.example.com",
+    "label": "phishing",
+    "explanation": "Dominio falso (no es el dominio oficial), lenguaje de urgencia y enlace con subdominio sospechoso."
+  }
+]
