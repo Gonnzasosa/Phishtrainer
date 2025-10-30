@@ -54,7 +54,7 @@ c1,c2 = st.columns([1,5])
 with c1:
     st.image("assets/logo.svg", width=200)
 with c2:
-    st.markdown("<div class='badge'>Entrenador anti-phishing</div>", unsafe_allow_html=True)
+    st.markdown("<div style='margin-top:12px' class='badge'>Entrenador anti-phishing</div>", unsafe_allow_html=True)
     st.markdown("### Identificá correos falsos como un analista SOC 🔐")
 
 st.write("")
